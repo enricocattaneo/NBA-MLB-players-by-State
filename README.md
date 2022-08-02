@@ -20,14 +20,7 @@ Kaggle dataset: https://www.kaggle.com/datasets/drgilermo/nba-players-stats?data
 
 **Number of Attributes**: 7 features, 4 text columns and 3 numerical attributes
 
-**Attribute Information**:
-* Player: player's full name (first and last)
-* height: height in cm
-* weight: weight in Kg
-* collage: college attended by the player
-* born: birthdate of the player
-* birth_city: city where the player was born
-* birth_state: state where the player was born 
+**Attribute Information**: Player: player's full name (first and last); height: height in cm; weight: weight in Kg; collage: college attended by the player; born: birthdate of the player; birth_city: city where the player was born; birth_state: state where the player was born 
 
 ##### MLB
 Kaggle dataset: https://www.kaggle.com/datasets/seanlahman/the-history-of-baseball (players.csv)
@@ -36,16 +29,7 @@ Kaggle dataset: https://www.kaggle.com/datasets/seanlahman/the-history-of-baseba
 
 **Number of Attributes**: 24 features
 
-**Main Attributes Information**:
-* birth_year: birth year of the player
-* birth_country: country where the player was born
-* birth_state: state where the player was born
-* birth_city: city where the player was born
-* death_year: death year of the player
-* death_country: country where the player died
-* death_state: state where the player died
-* death_city: city where the player died 
-...
+**Main Attributes Information**: birth_year: birth year of the player; birth_country: country where the player was born; birth_state: state where the player was born; birth_city: city where the player was born; death_year: death year of the player; death_country: country where the player died; death_state: state where the player died; death_city: city where the player died; ...
 
 ##### Population
 Wikipedia table: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population (table-1)
@@ -54,9 +38,7 @@ Wikipedia table: https://en.wikipedia.org/wiki/List_of_U.S._states_and_territori
 
 **Number of Attributes**: 16 columns
 
-**Main Attributes Information**:
-* State or territory: State name
-* Census population: census population by State (different columns for different census years)
+**Main Attributes Information**: State or territory: State name; Census population: census population by State (different columns for different census years)
 
 
 <a id='datapreparation'></a>
@@ -66,9 +48,9 @@ We consider only players born in the US for the NBA and MLB data. Missing values
 
 <a id='visualizations'></a>
 ## Visualizations
-* Scatterplot with values by State!
+* Scatterplot with values by State
 
-[newplot](https://user-images.githubusercontent.com/80990030/182402966-0fe8e3bc-a724-40d4-9108-77a6eb83f95a.png)
+![newplot](https://user-images.githubusercontent.com/80990030/182402966-0fe8e3bc-a724-40d4-9108-77a6eb83f95a.png)
 
 
 * Barplot with values by Region
@@ -78,4 +60,10 @@ We consider only players born in the US for the NBA and MLB data. Missing values
 
 <a id='comment'></a>
 ## Comments
-The wwo main visualizations allow us clearly compare different States and Regions. The similarities and differences between States and Regions could be due to cultural (appeal of a particular sport), climatic (weather conditions may influence the preponderance for indoor/outdoor sports), institutional (better sports programs and schools), and demographic (population's age distribution) aspects, etc. 
+The two main visualizations allow us to compare different States and Regions.
+The similarities and differences between States and Regions could be due to: 
+* Cultural aspects: like the appeal of a particular sport
+* Climatic aspects: weather conditions may influence the preponderance for indoor/outdoor sports
+* Institutional: like better sports programs and schools
+* Demographic: population's age distribution, etc. 
+* Many other possible causes and explanations
