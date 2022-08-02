@@ -64,6 +64,6 @@ The two main visualizations allow us to compare different States and Regions.
 The similarities and differences between States and Regions could be due to: 
 * Cultural aspects: like the appeal of a particular sport
 * Climatic aspects: weather conditions may influence the preponderance for indoor/outdoor sports
-* Institutional: like better sports programs and schools
-* Demographic: population's age distribution, etc. 
+* Institutional aspects: like better sports programs and schools
+* Demographic aspects: population's age distribution, etc. 
 * Many other possible causes and explanations
