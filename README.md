@@ -1,4 +1,4 @@
-# All-time NBA and MLB Players by Birth State
+# All-time NBA and MLB Players by Birth State Visualization
 
 **OBJECTIVE**: Analyze the number of all-time players for both NBA and MLB by the State where they were born. Which State delivers the most basketball and baseball players? From which region do most professional players come? (Considering only the United States)
 
